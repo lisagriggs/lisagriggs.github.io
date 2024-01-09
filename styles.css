@@ -1,0 +1,93 @@
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(26, 29, 41);
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  margin: 15px auto;
+  width: 80%;
+}
+
+header {
+  margin-bottom: 15px;
+}
+
+/* General */
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.6;
+  font-weight: 300;
+}
+
+.img-bg img {
+  width: 100%;
+}
+
+.img-bg {
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  transition: opacity 200ms ease 0s;
+  width: 100%;
+  z-index: -100;
+}
+
+.radial {
+  background-image: radial-gradient(farthest-side at 73% 21%, transparent, rgb(26, 29, 41));
+  position: absolute;
+  inset: 0px;
+}
+
+/* Home Page*/
+.images {
+  display: flex;
+  justify-content: space-between;
+}
+
+.images img {
+  border-radius: 10px;
+}
+
+.logos {
+  width: 200px;
+}
+
+/* Page 2 */
+.page2 {
+  max-width: 700px;
+}
+
+/* Header Nav */
+#menu {
+  border-bottom: 1px solid;
+  height: 25px;
+}
+
+#menu ul {
+  display: flex;
+  column-gap: 30px;
+  padding: 0;
+  padding-left: 7px;
+}
+
+#menu ul li {
+  list-style: none;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+#menu a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#menu a:hover {
+  color: #2671b8;
+  text-decoration: none;
+}
